@@ -1,6 +1,7 @@
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] ransom = new int[26]; 
+        // Şeymaya çok aşığım
         int[] mag = new int[26]; 
         int max = magazine.length();
         if(ransomNote.length()>max)
